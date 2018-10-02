@@ -1,0 +1,97 @@
+/*
+Fichier CSS de "Google"
+Par Thomas Grangeon
+*/
+
+body
+{
+    background-color: white
+}
+
+
+* /* selecteur universel */
+{
+    font-family: sans-serif
+}
+
+a, a:visited
+{
+    color: inherit;
+}
+
+.main:hover {
+    background-color:whitesmoke;
+    color: black;
+    border-style: solid;
+    border-radius: 2px;
+    border-width: 1px;
+    border-color: rgb(200, 200, 200);
+}
+
+.top-nav {
+text-align: right;
+margin-top: 1%;
+margin-right: 1%
+}
+
+.connexion {
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-color: rgb(84, 134, 243);
+    border-radius: 2px;
+    border: none;
+    padding: 8px 15px;
+    font-size: 16px;
+    margin: 0px 2px;
+}
+
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    width: 16%;
+}
+
+.main {
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(129, 129, 129);
+    background-color: rgb(240, 240, 240);
+    border: none;
+    padding: 12px 20px;
+    font-size: 12px;
+    margin: 0px 2px;
+}
+
+
+.search {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.search-bar {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    border-style: solid;
+    box-shadow: 2px 1px 3px 0.1px rgba(0, 0, 0, 0.13);
+    background-color: #ffffff;
+    padding: 12px;
+    color:rgba(0, 0, 0, 0.37);
+}
+
+.search-bar:hover {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 1px;
+    border-style: solid;
+    box-shadow: 2px 4px 10px 0.1px rgba(0, 0, 0, 0.13);
+    background-color: #ffffff;
+    padding: 12px;
+    color:rgba(0, 0, 0, 0.37);
+}
